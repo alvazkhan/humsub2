@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Login.View.XF_LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Lavender">
+            <Image Source="https://www.humsub.com.pk/wp-content/uploads/2018/03/humsub-banner-w2-x2-1150x180-text-website.jpg"
+              HeightRequest="150" />
+            <!-- Grabs source image from website -->
+            
+            <Label Text=" Welcome to HumSub" 
+                 FontSize="Large"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center" 
+               TextColor="Black"
+               FontFamily="serif"
+                   />
+            <!-- Display Welcome to HumSub on screen -->
+
+
+            <Entry x:Name = "Email" 
+                   Placeholder = "Email" 
+                   Text="{Binding Email}"
+                   HeightRequest = "40"
+                   Keyboard = "Email"/>
+            
+            <Entry x:Name = "Password" Text="{Binding Password}" Placeholder = "Password"
+                   HeightRequest = "40"
+                   IsPassword = "True"/>
+            
+            <Button x:Name= "loginbtn" Text = "Login " 
+                    Command="{Binding LoginCommand}"
+                    HorizontalOptions = "FillAndExpand"/>
+            <Button x:Name="signup" 
+                    Text="SignUp" Command="{Binding SignUp}"
+                    HorizontalOptions="FillAndExpand"/>
+            
+            <Button x:Name="ForgotPassword" 
+                    Text="Forgot Password" Command="{Binding ForgotPassword}"
+                    HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

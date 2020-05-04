@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631961452043",
+    "firebase_url": "https://humsub-1698b.firebaseio.com",
+    "project_id": "humsub-1698b",
+    "storage_bucket": "humsub-1698b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631961452043:android:905a49c11769c318efd10e",
+        "android_client_info": {
+          "package_name": "HumSub.package"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631961452043-i2qsmrhq041u10j38862ifqnj3sb0tgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhuHBJ_zs90vcnGCodZICoqXOKuU6G62s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631961452043-i2qsmrhq041u10j38862ifqnj3sb0tgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
